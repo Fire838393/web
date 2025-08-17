@@ -68,9 +68,9 @@ spawn(function()
 			print("Found PlayerBaseTemplate1, using it for all bases...")
 			for i = 1, NUM_BASES do
 				local base = template:Clone()
-				base.Name = "PlayerBase" .. i
+				base.Name = "PlayerBaseTemplate" .. i
 				base.Parent = playerBasesFolder
-				print("Spawned PlayerBase" .. i .. " using PlayerBaseTemplate1")
+				print("Spawned PlayerBaseTemplate" .. i .. " using PlayerBaseTemplate1")
 			end
 		else
 			print("PlayerBaseTemplate1 not found in Bases2 folder!")
